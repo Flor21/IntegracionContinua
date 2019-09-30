@@ -1,4 +1,4 @@
-version: '2'
+version: '3'
 services:
   master:
     build: .
@@ -9,7 +9,7 @@ services:
       - "8080:8080"
       - "50000:50000"
     volumes:
-      - jenkins_home:/var/jenkins_home
+      - .:/var/jenkins_home
  
 volumes:
   jenkins_home:
