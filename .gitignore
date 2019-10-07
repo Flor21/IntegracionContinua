@@ -27,3 +27,8 @@ users
 war
 workflow-libs
 workspace
+.lastStarted
+.settings
+.java/fonts/1.8.0_222
+.owner
+queue.xml
