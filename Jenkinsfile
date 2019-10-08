@@ -16,10 +16,6 @@ pipeline{
                 }
             }
         }
-        stage('Deliver'){
-            steps {
-                sh './deliver.sh'
-            }
-        }
+      
     }
 }
