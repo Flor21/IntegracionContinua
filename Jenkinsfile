@@ -18,6 +18,7 @@ pipeline{
         }
         stage('Deliver'){
             steps {
+                sh 'chmod +x -R deliver.sh'
                 sh './deliver.sh'
             }
         }
